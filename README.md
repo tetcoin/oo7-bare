@@ -1,4 +1,4 @@
-oo7
+spycraft
 =========
 
 A small library providing what might be termed as reactive expressions, `Bond`s
@@ -16,16 +16,16 @@ work with basic values, `Promise`s and other `Bonds` abstractly.
 ## Installation
 
 ```sh
-  npm install oo7 --save
+  npm install spycraft --save
 ```
 
 ## Usage
 
 ```javascript
-  var oo7 = require('oo7'),
-      Bond = oo7.Bond,
-      TimeBond = oo7.TimeBond,
-	  TransformBond = oo7.TransformBond;
+  var spycraft = require('spycraft'),
+      Bond = spycraft.Bond,
+      TimeBond = spycraft.TimeBond,
+	  TransformBond = spycraft.TransformBond;
 
   let t = new TimeBond;
 
@@ -58,7 +58,7 @@ NPM's publishing functionality automatically ensures packages reference the late
 of their dependencies in the tightly-coupled group, and bumps the patch version after
 publication.
 
-For all of this to work, ensure this, `oo7-parity`, `oo7-react` and `parity-reactive-ui`
+For all of this to work, ensure this, `spycraft-tetsy`, `spycraft-react` and `tetsy-reactive-ui`
 all exist in the same parent directory.
 
 ## Release History
